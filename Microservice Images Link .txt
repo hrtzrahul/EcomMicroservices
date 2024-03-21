@@ -1,0 +1,13 @@
+Microservice Images Link :
+
+1. eurekaserver    : docker pull rahulroc66/e-com_microservices:eurekaserver
+
+2.inventoryservice : docker pull rahulroc66/e-com_microservices:inventoryservice
+
+3.productdetailservice : docker pull rahulroc66/e-com_microservices:productservice
+
+4. userservice   : docker pull rahulroc66/e-com_microservices:userservice
+
+5. apigateway : docker pull rahulroc66/e-com_microservices:apigateway
+
+6.authentiactionwebapi : docker pull rahulroc66/e-com_microservices:authentiactionwebapi

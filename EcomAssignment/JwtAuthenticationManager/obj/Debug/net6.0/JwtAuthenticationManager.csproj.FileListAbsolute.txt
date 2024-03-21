@@ -1,0 +1,12 @@
+C:\Users\rahulsingh14\OneDrive - Nagarro\Desktop\RahulSingh-2-01-March-2023-Microservices\EcomAssignment\JwtAuthenticationManager\bin\Debug\net6.0\JwtAuthenticationManager.deps.json
+C:\Users\rahulsingh14\OneDrive - Nagarro\Desktop\RahulSingh-2-01-March-2023-Microservices\EcomAssignment\JwtAuthenticationManager\bin\Debug\net6.0\JwtAuthenticationManager.dll
+C:\Users\rahulsingh14\OneDrive - Nagarro\Desktop\RahulSingh-2-01-March-2023-Microservices\EcomAssignment\JwtAuthenticationManager\bin\Debug\net6.0\JwtAuthenticationManager.pdb
+C:\Users\rahulsingh14\OneDrive - Nagarro\Desktop\RahulSingh-2-01-March-2023-Microservices\EcomAssignment\JwtAuthenticationManager\obj\Debug\net6.0\JwtAuthenticationManager.csproj.AssemblyReference.cache
+C:\Users\rahulsingh14\OneDrive - Nagarro\Desktop\RahulSingh-2-01-March-2023-Microservices\EcomAssignment\JwtAuthenticationManager\obj\Debug\net6.0\JwtAuthenticationManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rahulsingh14\OneDrive - Nagarro\Desktop\RahulSingh-2-01-March-2023-Microservices\EcomAssignment\JwtAuthenticationManager\obj\Debug\net6.0\JwtAuthenticationManager.AssemblyInfoInputs.cache
+C:\Users\rahulsingh14\OneDrive - Nagarro\Desktop\RahulSingh-2-01-March-2023-Microservices\EcomAssignment\JwtAuthenticationManager\obj\Debug\net6.0\JwtAuthenticationManager.AssemblyInfo.cs
+C:\Users\rahulsingh14\OneDrive - Nagarro\Desktop\RahulSingh-2-01-March-2023-Microservices\EcomAssignment\JwtAuthenticationManager\obj\Debug\net6.0\JwtAuthenticationManager.csproj.CoreCompileInputs.cache
+C:\Users\rahulsingh14\OneDrive - Nagarro\Desktop\RahulSingh-2-01-March-2023-Microservices\EcomAssignment\JwtAuthenticationManager\obj\Debug\net6.0\JwtAuthenticationManager.dll
+C:\Users\rahulsingh14\OneDrive - Nagarro\Desktop\RahulSingh-2-01-March-2023-Microservices\EcomAssignment\JwtAuthenticationManager\obj\Debug\net6.0\refint\JwtAuthenticationManager.dll
+C:\Users\rahulsingh14\OneDrive - Nagarro\Desktop\RahulSingh-2-01-March-2023-Microservices\EcomAssignment\JwtAuthenticationManager\obj\Debug\net6.0\JwtAuthenticationManager.pdb
+C:\Users\rahulsingh14\OneDrive - Nagarro\Desktop\RahulSingh-2-01-March-2023-Microservices\EcomAssignment\JwtAuthenticationManager\obj\Debug\net6.0\ref\JwtAuthenticationManager.dll

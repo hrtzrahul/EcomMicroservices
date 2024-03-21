@@ -1,0 +1,91 @@
+version: '3.4'
+
+networks:
+   backend:
+
+
+services:
+  eurekaserver:
+    container_name: eurekaserver
+    image: steeltoeoss/eurekaserver:latest
+    restart: on-failure
+    hostname: eureka-server
+    networks:
+      - backend
+    ports:
+    - "8761:8761"
+
+  
+   
+
+  inventoryservice:
+    container_name: inventory-api
+    image: ${DOCKER_REGISTRY-}inventoryservice
+    build:
+      context: .
+      dockerfile: Microservices/InventoryService/Dockerfile
+    ports:
+    - 44309:80
+    networks:
+    - backend
+    
+
+  productdetailservice:
+    container_name: productdetail-api
+    image: ${DOCKER_REGISTRY-}productdetailservice
+    build:
+      context: .
+      dockerfile: Microservices/ProductDetailService/Dockerfile
+    ports:
+    - 44300:80
+    networks:
+    - backend
+    
+
+  productservice:
+    container_name: product-api
+    image: ${DOCKER_REGISTRY-}productservice
+    build:
+      context: .
+      dockerfile: Microservices/ProductService/Dockerfile
+    ports:
+    - 44343:80
+    networks:
+    - backend
+
+
+  userservice:
+    container_name: user-api
+    image: ${DOCKER_REGISTRY-}userservice
+    build:
+      context: .
+      dockerfile: Microservices/UserService/Dockerfile
+    ports:
+    - 44307:80
+    networks:
+    - backend
+ 
+  apigateway:
+    container_name: apigateway
+    image: ${DOCKER_REGISTRY-}apigateway
+    build:
+      context: .
+      dockerfile: ApiGateway/ApiGateway/Dockerfile
+    ports:
+    - 8001:80
+    networks:
+    - backend
+
+
+  authentiactionwebapi:
+    container_name: authentication-api
+    image: ${DOCKER_REGISTRY-}authentiactionwebapi
+    build:
+      context: .
+      dockerfile: AuthentiactionWebApi/Dockerfile
+    ports:
+    - 8002:80
+    networks:
+    - backend
+  
+
